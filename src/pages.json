@@ -1,0 +1,82 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/order/index",
+			"style": {
+				"navigationBarTitleText": "订单中心",
+				"enablePullDownRefresh": true
+			}
+		},{
+			"path": "pages/center/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/center/userInfo",
+			"style": {
+				"navigationBarTitleText": "个人资料"
+			}
+		},
+		{
+			"path": "pages/center/editName",
+			"style": {
+				"navigationBarTitleText": "名字昵称"
+			}
+		},
+		{
+			"path": "pages/center/editPhone",
+			"style": {
+				"navigationBarTitleText": "修改手机号码"
+			}
+		},
+		{
+			"path" : "pages/faq/index",
+			"style" : {
+			"navigationBarTitleText": "使用教程"
+			}
+		},
+		{
+			"path" : "pages/webView/index",
+			"style" : {
+			"navigationBarTitleText": "使用教程详情"
+			}
+		},
+		{
+			"path" : "pages/upload/index",
+			"style" : {
+			"navigationBarTitleText": "使用教程"
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#BBDBF4",
+		"selectedColor": "#0C92F2",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/order/index",
+				"iconPath": "static/img/order.png",
+				"selectedIconPath": "static/img/order-on.png",
+				"text": "订单"
+			},
+			{
+				"pagePath": "pages/center/index",
+				"iconPath": "static/img/center.png",
+				"selectedIconPath": "static/img/center-on.png",
+				"text": "我的"
+			}
+		]
+	}
+}
